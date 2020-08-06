@@ -1,6 +1,0 @@
-1. first compile program
-	javac filename.javac
-2. run program
-	java filename
-	
-	
