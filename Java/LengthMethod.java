@@ -1,4 +1,4 @@
-class LengthFun{
+class LengthMethod{
 	Strin name = "vivek Lost Sky";
 	length(){
 	
