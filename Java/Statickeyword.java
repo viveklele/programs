@@ -1,12 +1,31 @@
-import java.util.*;
-class Statickeyword{
-	Statickeyword(int a){
-		int b = a * 10;
-		System.out.println("a = "+a+", b = "+b);
+class Objects{
+	
+	String obj1;
+	static String obj2;
+	
+	void keys(){
+		System.out.println("Keys: " + obj1);
 	}
 	
+	static void bord(){
+		System.out.println(obj2);
+	}
+}
+
+
+class StaticKeyWord{
 	public static void main(String[] args){
-		Statickeyword static_ = new Statickeyword(5);
+		Objects.obj2 = "window";
+		Objects.bord();
+		
+		Objects myObject = new Objects();
+		
+		myObject.obj1 = "Blackbord";
+		
+		double a = (Math.PI);
+		System.out.println(a);
+		myObject.keys();
 		
 	}
+
 }
