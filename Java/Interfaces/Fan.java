@@ -1,0 +1,3 @@
+interface Fan{
+	void fanSpeed();
+}

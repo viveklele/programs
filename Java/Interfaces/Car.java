@@ -12,3 +12,5 @@ class Car implements Info{
 		System.out.println("Name is :" + name);
 	}
 }
+
+
