@@ -1,19 +1,18 @@
-final class Animal{
-	static void dog(){
-		System.out.println("Dog is tall");
+class Animal{
+	final int a = 100;
+	void dog(){
+		a = 30;
 }
 
-}
 
 
 
-class CheckFinalKeyword extends Animal{
-	public static void main(String[] args){
-		
-		CheckFinalKeyword animal = new CheckFinalKeyword ();
-		CheckFinalKeyword.dog();	
-		
-		
+
+
+public static void main(String[] args){
+	Animal ani = new Animal();
+	ani.dog();
+	//System.out.println(ani.dog());
 	
 	}
 
